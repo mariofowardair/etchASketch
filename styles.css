@@ -14,6 +14,7 @@
     justify-items: center;
     align-items: center;
     margin-top: 200px;
+    margin-left: 50px;
     gap: 20px;
 }
 
@@ -31,4 +32,17 @@
 
 body {
     background-color: #ACC8F4;
+}
+
+.slideContainer {
+    display: flex;
+    margin-top: 200px;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#daHolder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
